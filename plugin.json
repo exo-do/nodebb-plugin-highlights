@@ -7,7 +7,7 @@
 	"hooks": [
 		{
 			"hook": "filter:parse.post",
-			"method": "parsePosts"
+			"method": "parse"
 		}
 	],
 	"less": ["static/style.less"]
