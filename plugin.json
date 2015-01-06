@@ -1,0 +1,14 @@
+{
+	"id": "nodebb-plugin-highlights",
+	"name": "Highlights Post Plugin for NodeBB",
+	"description": "A NodeBB plugin for highlights posts from certain users",
+	"url": "https://github.com/exo-do/nodebb-plugin-highlights",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:parse.post",
+			"method": "parsePosts"
+		}
+	],
+	"less": ["static/style.less"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "nodebb-plugin-highlights",
+  "version": "0.1.0",
+  "description": "A NodeBB plugin for highlights posts from certain users",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exo-do/nodebb-plugin-highlights"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "highlights",
+    "post"
+  ],
+  "author": {
+    "name": "xuso"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/exo-do/nodebb-plugin-highlights/issues"
+  },
+  "readmeFilename": "README.md"
+}
