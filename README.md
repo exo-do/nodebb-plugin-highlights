@@ -15,8 +15,8 @@ Buscar la línea
 	<li class="post-row<!-- IF posts.deleted --> deleted<!-- ENDIF posts.deleted -->" ...></li>
 ```
 
-Y añadir `<!-- IF posts.isOP -->highlights-op<!-- ENDIF posts.isOP -->` en el atributo `class`:
+Y añadir `<!-- IF posts.isOP -->highlights-op<!-- ENDIF posts.isOP --><!-- IF posts.isFollow --> highlight-fw<!-- ENDIF posts.isFollow -->` en el atributo `class`:
 
 ```
-	<li class="post-row<!-- IF posts.deleted --> deleted<!-- ENDIF posts.deleted --><!-- IF posts.isOP -->highlights-op<!-- ENDIF posts.isOP -->"...></li>
+	<li class="post-row<!-- IF posts.deleted --> deleted<!-- ENDIF posts.deleted --><!-- IF posts.isOP -->highlights-op<!-- ENDIF posts.isOP --><!-- IF posts.isFollow --> highlight-fw<!-- ENDIF posts.isFollow -->"...></li>
 ```
