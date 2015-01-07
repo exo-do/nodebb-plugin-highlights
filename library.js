@@ -21,16 +21,14 @@
 				data.postData.isOP = false;
 				if ( opUID == data.postData.uid ) {
 					data.postData.isOP = true;
-					callback(null, data);
-				} else {
-					user.isFollowing(data.uid, data.postData.uid, function (err, isfow) {
-						if (err) {
-							return callback(err);
-						}
-						data.postData.isFollow = isfow;
-						callback(null, data)
-					});
 				}
+				user.isFollowing(data.uid, data.postData.uid, function (err, isfow) {
+					if (err) {
+						return callback(err);
+					}
+					data.postData.isFollow = isfow;
+					callback(null, data)
+				});
 			});
 		} else {
 			callback(null, data);
