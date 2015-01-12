@@ -1,11 +1,21 @@
 .post-row.highlight-op,
 .post-row.highlight-fw {
-	.post-header:after {
-		background: url("http://i.imgur.com/h1VrFLI.png");
-		content: "";
-		height: 34px;
-		opacity: 0.1;
-		position: absolute;
-		width: 300px;
+	.post-wrapper {
+		position: relative;
+		.post-header {
+			&:before {
+				background: url("http://i.imgur.com/h1VrFLI.png");
+				content: "";
+				height: 34px;
+				opacity: 0.1;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 300px;
+			}
+			> div:first-child {
+				opacity: 0.9;
+			}
+		}	
 	}
 }
