@@ -1,4 +1,25 @@
 
+.post-row.highlight-fw {
+	.post-wrapper {
+		position: relative;
+		.post-header {
+			&:before {
+				background: url("http://i.imgur.com/wZR8p9i.png");
+				content: "";
+				height: 34px;
+				opacity: 0.3;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 300px;
+			}
+			> div:first-child {
+				opacity: 0.9;
+			}
+		}	
+	}
+}
+
 .post-row.highlight-op {
 	.post-wrapper {
 		position: relative;
@@ -20,24 +41,3 @@
 	}
 }
 
-
-.post-row.highlight-fw {
-	.post-wrapper {
-		position: relative;
-		.post-header {
-			&:before {
-				background: url("http://i.imgur.com/wZR8p9i.png");
-				content: "";
-				height: 34px;
-				opacity: 0.3;
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 300px;
-			}
-			> div:first-child {
-				opacity: 0.9;
-			}
-		}	
-	}
-}
