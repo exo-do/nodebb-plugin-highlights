@@ -28,16 +28,16 @@
 					if ( opUID == p.uid ) {
 						p.isOP = true;
 					}
-					
+
 					user.isFollowing(data.uid, p.uid, function (err, isfow) {
 						if (err) {
 							cb();
 						}
 						p.isFollow = isfow;
-						console.log(p);
+						//console.log(p);
 						cb();
 					});
-					
+
 				});
 			}
 			else
