@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-highlights",
-  "version": "0.1.1",
+  "version": "1.0.2",
   "description": "A NodeBB plugin for highlights posts from certain users",
   "main": "library.js",
   "repository": {
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/exo-do/nodebb-plugin-highlights/issues"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility":   "<=1.0.0"
+  },
+  "scripts": {
+    "2npm": "publish"
+  },
+  "devDependencies": {
+    "publish": "0.5.0"
+  }
 }
