@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-highlights",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A NodeBB plugin for highlights posts from certain users",
   "main": "library.js",
   "repository": {
@@ -14,7 +14,7 @@
     "post"
   ],
   "author": {
-    "name": "xuso"
+    "name": "exomarty"
   },
   "license": "BSD-2-Clause",
   "bugs": {
