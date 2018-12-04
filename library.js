@@ -4,8 +4,8 @@
 	var highlights = {};
 	var opUID;
 	var postCount = true;
-	var topics = module.parent.require('./topics'),
-	  user = module.parent.require('./user'),
+	var topics = require.main.require('./src/topics'),
+	  user = require.main.require('./src/user'),
 	  async = require('async');
 
 
