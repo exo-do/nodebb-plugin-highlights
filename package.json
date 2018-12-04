@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-highlights",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A NodeBB plugin for highlights posts from certain users",
   "main": "library.js",
   "repository": {
